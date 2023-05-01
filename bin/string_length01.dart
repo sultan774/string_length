@@ -6,6 +6,12 @@
     Returns:
         length of string */
 
-void main() {
+
   // write your code here
+  int func(String n){
+  return  n.length;
 }
+void main() {
+  print(func('Sultonbek'));
+}
+
