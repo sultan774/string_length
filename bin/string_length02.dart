@@ -6,6 +6,16 @@
     Returns:
         True or False
      */
+  // write your code here
+  bool func(String a){
+      if (a.length % 2 == 0) {
+        return true;
+      }
+      return false;
+     }
+
 void main() {
+  print(func('sultonbekqwertyuio'));
   // write your code here
 }
+
