@@ -7,6 +7,20 @@
     Returns:
         True or False
 */
-void main() {
+
   // write your code here
+   bool func(String a , String b){
+      if (a.length == b.length) {
+      
+        return true;
+      } 
+        return false;
+      
+      }
+     
+      
+
+void main() {
+  print(func('sultonbek','kebnotlus'));
+ 
 }
