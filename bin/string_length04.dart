@@ -6,6 +6,12 @@
     Returns:
         string
 */
-void main() {
+
   // write your code here
+  String func(String a){
+ return'*' * a.length;
 }
+void main() {
+  print(func('sultonbek'));
+}
+
