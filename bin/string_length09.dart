@@ -7,6 +7,13 @@
     Returns:
         str: answer
      */
+String func(String s1,String s2){
+      if (s1.length > s2.length) {
+        return s1;
+      }
+      return s2;
+     }
 void main() {
+  print(func('tlaki','kalt'));
   // write your code here
 }
