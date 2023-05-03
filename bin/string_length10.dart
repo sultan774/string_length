@@ -7,6 +7,10 @@
         bool: answer
 */
 
+String func(String s){
+  return (s.toUpperCase());
+}
 void main() {
+  print(func('jalol'));
   // write your code here
 }
