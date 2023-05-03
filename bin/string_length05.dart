@@ -7,6 +7,11 @@
     Returns:
         total length of strings
 */
-void main() {
-  // write your code here
-}
+int  func(String s1, String s2) {
+   var s3= s1 + s2;
+   return s3.length;
+   
+   } 
+   void main() {
+    print(func('Sultonbek', 'Sultan'));
+   }
